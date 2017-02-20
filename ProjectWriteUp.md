@@ -25,12 +25,12 @@ My pipeline consisted of the following steps:
 * Converted the images to grayscale
 * Used Gaussian smoothing to remove some of the noise
 * Canny edge detection was used to outline the primary edges in the image
-* Defined a 4-sided polygon to mask and identify the area of interest
+* Defined a 4-sided polygon to identify the area of interest
 * A Hough transform was used to find segments along the lane lines
 
 After the pipeline was developed, the line segments found with the Hough transform were extrapolated into one continuous line for the right and left lane lines using a weighted average.
 
-The average line for right and left lane lines were then converted to two points, one point at each end of the 4-sided polygon boarder. The points could then be used in the cv2.line() function and then overlaid on the original image.
+The average line for right and left lane lines were then converted to two points, one point at each end of the 4-sided polygon border. The points could then be used in the cv2.line() function and then overlaid on the original image. This was the modification to the draw_lines() function in order to be able to draw one continuous line. 
 
 This is an example of the images tested:
 
