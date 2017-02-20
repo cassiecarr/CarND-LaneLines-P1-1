@@ -40,19 +40,19 @@ And the output after the lane lines were detected:
 
 ![Lane Lines After](./test_images/found_lane_lines/solidWhiteRight.jpg)
 
-This same pipeline was then used for finding lane lines in video file.
+This same pipeline was then used for finding lane lines in video files.
 
 
 ###2. Identify potential shortcomings with your current pipeline
 
 
-One potential shortcoming would be what would happen when bright objects or light coloring (similar to lane lines) appear in the center of the lane. This would cause segments to found in areas where lane lines are not present and offset the average line calculation.
+One potential shortcoming would be when bright objects or light coloring (similar to lane lines) appear in the center of the lane. This would cause segments to be found in areas where lane lines are not present and offset the average line calculation.
 
-Another shortcoming could be curves in the road. Currently the lane line calculation only uses a straight line formula. Line formulas using polynomials may be needed to identify curves. This is part of the challenge and I am currently working through this obstacle.
+Another shortcoming could be curves in the road. Currently the lane line calculation only uses a straight line formula. Line formulas using polynomials (or other methods) may be needed to identify curves. This is part of the challenge and I am currently working through this obstacle.
 
 
 ###3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to have the parameters for the Hough transform and Canny edge detection be based off of the average threshold of the image so they would adjust for darker or brighter images. In addition, it would benficial to structure the program in a way that you could loop through a range of parameters to easily find the optimal set up. 
+A possible improvement would be to have the parameters for the Hough transform and Canny edge detection be based off of the image brightness and contrast so they would adjust for darker or brighter images. In addition, it would benficial to structure the program in a way that you could loop through a range of parameters to easily find the optimal set up. 
 
 Another potential improvement could be to have the 4-sided polygon used to identify the area of interest be automatically generated based on image size and potentially edge patterns. 
