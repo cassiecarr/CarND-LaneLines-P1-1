@@ -34,11 +34,11 @@ The average line for right and left lane lines were then converted to two points
 
 This is an example of the images tested:
 
-[image2]: ./test_images/solidWhiteRight.jpg "LaneLinesBefore"
+![Lane Lines Before](./test_images/solidWhiteRight.jpg)
 
 And the output after the lane lines were detected:
 
-[image3]: ./test_images/found_lane_lines/solidWhiteRight.jpg "LaneLinesAfter"
+![Lane Lines After](./test_images/found_lane_lines/solidWhiteRight.jpg)
 
 This same pipeline was then used for finding lane lines in video file.
 
