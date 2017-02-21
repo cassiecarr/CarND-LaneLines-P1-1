@@ -46,7 +46,7 @@ writeup_template.md: Template used for Project write up
 **Item 5:** Challenge
 
 challenge.mp4: Challenge video with curved lanes and differnt road surfaces  
-[FindLaneLines_Challenge.ipynb](https://github.com/cassiecarr/CarND-LaneLines-P1-1/blob/master/FindLaneLines_Challenge.ipynb): Modified code for the challenge.mp4 video  
+[FindingLaneLines_Challenge.ipynb](https://github.com/cassiecarr/CarND-LaneLines-P1-1/blob/master/FindingLaneLines_Challenge.ipynb): Modified code for the challenge.mp4 video  
 extra.mp4: The output from FindingLaneLines_Challege.ipynb for challenge.mp4  
 
  
