@@ -46,9 +46,9 @@ This same pipeline was then used for finding lane lines in video files. In addit
 ###2. Identify potential shortcomings with your current pipeline
 
 
-One potential shortcoming would be when bright objects or light coloring (similar to lane lines) appear in the center of the lane. This would cause segments to be found in areas where lane lines are not present and offset the average line calculation.
+One potential shortcoming would be when bright objects or light coloring (similar to lane lines) appear in the lane. This would cause segments to be found in areas where lane lines are not present and offset the average line calculation. This can also be seen when the road surface changes (like in the challenge.mp4 video).
 
-Another shortcoming could be curves in the road. Currently the lane line calculation only uses a straight line formula. Line formulas using polynomials (or other methods) would be needed to identify curves. I was not able to add this functionality to my submission for the challenge video but would like to see if using a best fit line could accomplish this.
+Another shortcoming could be curves in the road. Currently the lane line calculation only uses a straight line formula. Line formulas using polynomials (or other methods) would be needed to identify curves. I was not able to add this functionality to my submission for the challenge video but would like to see if using a best fit line, with a 2nd or 3rd order polynomial, could accomplish this.
 
 
 ###3. Suggest possible improvements to your pipeline
