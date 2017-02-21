@@ -35,13 +35,18 @@ solidWhiteRight.mp4 & solidYellowLeft.mp4: The input test videos used to test Fi
 white.mp4 & yellow.mp4: The output videos of FindLaneLines.ipynb showing the lane line overlay  
 
 Example Videos:  
-P1_example.mp4  
-challenge.mp4  
+P1_example.mp4   
 raw-lines-example.mp4  
 
 **Item 4:** Project Write-Up
 
 ProjectWriteUp.md: Project write up  
 writeup_template.md: Template used for Project write up  
+
+**Item 5:** Challenge
+
+challenge.mp4: Challenge video with curved lanes and differnt road surfaces  
+[FindLaneLines_Challenge.ipynb](https://github.com/cassiecarr/CarND-LaneLines-P1-1/blob/master/FindLaneLines_Challenge.ipynb): Modified code for the challenge.mp4 video  
+extra.mp4: The output from FindingLaneLines_Challege.ipynb for challenge.mp4  
 
  
