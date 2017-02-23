@@ -26,8 +26,8 @@ Files and Instructions
 [found_lane_lines](https://github.com/cassiecarr/CarND-LaneLines-P1-1/tree/master/test_images/found_lane_lines): The image outputs of FindingLaneLines.ipynb showing the lane line overlay  
 
 Example Images:  
-line-segments-example.jpg  
-laneLines_thirdPass.jpg  
+[line-segments-example.jpg](https://github.com/cassiecarr/CarND-LaneLines-P1-1/blob/master/line-segments-example.jpg)  
+[laneLines_thirdPass.jpg](https://github.com/cassiecarr/CarND-LaneLines-P1-1/blob/master/laneLines_thirdPass.jpg)  
 
 **Item 3:** Video Files  
 
