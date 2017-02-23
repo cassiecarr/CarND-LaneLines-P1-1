@@ -23,7 +23,7 @@ Files and Instructions
 **Item 2:** Image Files
 
 [test_images](https://github.com/cassiecarr/CarND-LaneLines-P1-1/tree/master/test_images): The input test images used to test FindingLaneLines.ipynb  
-[found_lane_lines](https://github.com/cassiecarr/CarND-LaneLines-P1-1/blob/master/FindingLaneLines.ipynb): The image outputs of FindingLaneLines.ipynb showing the lane line overlay  
+[found_lane_lines](https://github.com/cassiecarr/CarND-LaneLines-P1-1/tree/master/test_images/found_lane_lines): The image outputs of FindingLaneLines.ipynb showing the lane line overlay  
 
 Example Images:  
 line-segments-example.jpg  
