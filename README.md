@@ -22,8 +22,8 @@ Files and Instructions
 
 **Item 2:** Image Files
 
-test_images: The input test images used to test FindingLaneLines.ipynb  
-test_images/found_lane_lines: The image outputs of FindingLaneLines.ipynb showing the lane line overlay  
+[test_images](https://github.com/cassiecarr/CarND-LaneLines-P1-1/tree/master/test_images): The input test images used to test FindingLaneLines.ipynb  
+[found_lane_lines](https://github.com/cassiecarr/CarND-LaneLines-P1-1/blob/master/FindingLaneLines.ipynb): The image outputs of FindingLaneLines.ipynb showing the lane line overlay  
 
 Example Images:  
 line-segments-example.jpg  
@@ -31,16 +31,16 @@ laneLines_thirdPass.jpg
 
 **Item 3:** Video Files  
 
-solidWhiteRight.mp4 & solidYellowLeft.mp4: The input test videos used to test FindLaneLines.ipynb  
-white.mp4 & yellow.mp4: The output videos of FindLaneLines.ipynb showing the lane line overlay  
+[solidWhiteRight.mp4](https://github.com/cassiecarr/CarND-LaneLines-P1-1/blob/master/solidWhiteRight.mp4) & [solidYellowLeft.mp4](https://github.com/cassiecarr/CarND-LaneLines-P1-1/blob/master/solidYellowLeft.mp4): The input test videos used to test FindLaneLines.ipynb  
+[white.mp4](https://github.com/cassiecarr/CarND-LaneLines-P1-1/blob/master/white.mp4) & [yellow.mp4](https://github.com/cassiecarr/CarND-LaneLines-P1-1/blob/master/yellow.mp4): The output videos of FindLaneLines.ipynb showing the lane line overlay  
 
 Example Videos:  
-P1_example.mp4   
-raw-lines-example.mp4  
+[P1_example.mp4](https://github.com/cassiecarr/CarND-LaneLines-P1-1/blob/master/P1_example.mp4)   
+[raw-lines-example.mp4](https://github.com/cassiecarr/CarND-LaneLines-P1-1/blob/master/raw-lines-example.mp4)   
 
 **Item 4:** Project Write-Up
 
-ProjectWriteUp.md: Project write up  
-writeup_template.md: Template used for Project write up  
+[ProjectWriteUp.md](https://github.com/cassiecarr/CarND-LaneLines-P1-1/blob/master/ProjectWriteUp.md): Project write up  
+[writeup_template.md](https://github.com/cassiecarr/CarND-LaneLines-P1-1/blob/master/writeup_template.md): Template used for Project write up  
 
  
