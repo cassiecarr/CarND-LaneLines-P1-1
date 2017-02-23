@@ -16,14 +16,14 @@ Files and Instructions
 **Item 1:** Python 3 Jupyter Notebook Files 
 
 [P1.ipynb](https://github.com/cassiecarr/CarND-LaneLines-P1-1/blob/master/P1.ipynb): Instructions and outline for this CarND Project   
-[FindLaneLines.ipynb](https://github.com/cassiecarr/CarND-LaneLines-P1-1/blob/master/FindLaneLines.ipynb): Project submission for this CarND Project, includes:  
+[FindingLaneLines.ipynb](https://github.com/cassiecarr/CarND-LaneLines-P1-1/blob/master/FindingLaneLines.ipynb): Project submission for this CarND Project, includes:  
 * Finding lane lines for image files
 * Finding lane lines for video files
 
 **Item 2:** Image Files
 
-test_images: The input test images used to test FindLaneLines.ipynb  
-test_images/found_lane_lines: The image outputs of FindLaneLines.ipynb showing the lane line overlay  
+test_images: The input test images used to test FindingLaneLines.ipynb  
+test_images/found_lane_lines: The image outputs of FindingLaneLines.ipynb showing the lane line overlay  
 
 Example Images:  
 line-segments-example.jpg  
@@ -42,11 +42,5 @@ raw-lines-example.mp4
 
 ProjectWriteUp.md: Project write up  
 writeup_template.md: Template used for Project write up  
-
-**Item 5:** Challenge
-
-challenge.mp4: Challenge video with curved lanes and differnt road surfaces  
-[FindingLaneLines_Challenge.ipynb](https://github.com/cassiecarr/CarND-LaneLines-P1-1/blob/master/FindingLaneLines_Challenge.ipynb): Modified code for the challenge.mp4 video  
-extra.mp4: The output from FindingLaneLines_Challege.ipynb for challenge.mp4  
 
  
